@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "debugType": "portable",
+    "emitEntryPoint": true
+  },
+  "dependencies": {
+    "Microsoft.Extensions.DependencyInjection": "1.2.0-*",
+    "Microsoft.Extensions.Logging": "1.2.0-*",
+    "Microsoft.Extensions.Logging.Console": "1.2.0-*",
+    "Microsoft.Extensions.Caching.Memory": "1.2.0-*",
+    "Microsoft.AspNetCore.DataProtection.DistributedStore": "1.0.0-*"
+  },
+  "frameworks": {
+    "netcoreapp1.1": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "version": "1.2.0-*",
+          "type": "platform"
+        }
+      }
+    },
+    "net451": {}
+  }
+}
